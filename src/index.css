@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@font-face {
+  src:url("https://use.typekit.net/rgy4jwp.css");
+  font-family: "termina", sans-serif;
+}
+@tailwind utilities;
+
+:root {
+  --color-white: #CCD0CF;
+  --color-grey:#495A67;
+  --color-black: #000000;
+}
+
+body {
+  background-color: var(--color-white);
+}
